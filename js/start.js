@@ -43,7 +43,7 @@ window.renderStatistics = function (ctx, names, times) {
     ctx.fillStyle = 'hsl(240, ' + Math.random() * 100 + '%, ' + Math.random() * 100 + '%)';
     if (names[i] === 'Вы') {
       ctx.fillStyle = 'rgba(255, 0, 0, 1)';
-    };
+    }
     ctx.fillRect(BAR_X + (BAR_WIDTH + BAR_GAP) * i, BAR_Y, BAR_WIDTH, -times[i] * BAR_HEIGHT / maxTime);
   }
 };
