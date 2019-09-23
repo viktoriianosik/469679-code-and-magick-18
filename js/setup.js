@@ -51,5 +51,5 @@ var renderFragment = function () {
   userDialog.querySelector('.setup-similar').classList.remove('hidden');
 };
 
-render();
+renderFragment();
 
